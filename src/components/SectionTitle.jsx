@@ -1,0 +1,1 @@
+export default function SectionTitle({eyebrow='Taste the difference',title,copy,light=false}){return <div className={`section-title ${light?'light':''}`}><span>{eyebrow}</span><h2>{title}</h2>{copy&&<p>{copy}</p>}</div>}
